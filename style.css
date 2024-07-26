@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@400;700&display=swap');
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+
+ html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    
+ }
+
+ a{
+    text-decoration: none;
+
+ }
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+position: relative;
+}
+
+video{
+
+    height: 100vh;
+    width:  100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+
+.navbar {
+    width: 95%;
+    height: 12%;
+    background-color: #003498e3;
+   overflow: hidden;
+    display:  flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 2vmax 3vmax;
+    margin: 1vmax 2vmax;
+    border-radius: 12px;
+    position: absolute;
+    /* border: 1px solid #fff; */
+
+  }
+
+
+ 
+
+.logo{
+    margin-top: 1%;
+    height: 9vmax;
+}
+
+
+.nav_bar li{
+    list-style: none;
+    
+}
+
+.nav_bar li a {
+   
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_bar li a:hover{
+   color: #32c822db;
+}
+
+.bottom-page1{
+    height: 30%;
+    width: 55%;
+    position: absolute;
+    
+    top: 35%;
+    left: 5%;
+    
+
+}
+.bottom-page1>h1{
+    color: #003498;
+    font-size: 3.5vmax;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 5vw;
+    
+}
+
+.bottom-page1>h1>.h1-b{
+    color:#32c822db;
+    font-size:  6vmax;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bottom-page1>h1>.h1-c{
+    color: #003498;
+    font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.bottom-page1-inner{
+    width: 100%;
+
+
+
+}
+
+.bottom-page1-inner>p{
+   font-size: 1.2vmax;
+   font-family: "Be Vietnam Pro", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   padding: 10px 0px;
+   color: #003498;
+}
+
+.bottom-page1-inner>button{
+
+    border-radius: 22px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1vmax 4vmax;
+    background-color: #32c822db;
+    margin-top: 2%;
+    font-size: medium;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bottom-page1-inner>button:hover{
+    background-color: #003498;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #003498;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0% 10%;
+}
+
+
+
+#page2>h2{
+    color: #fff;
+    font-size: 2vmax;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+#page2>h1{
+    color: rgba(128, 128, 128, 0.543);
+    font-size: 3.5vmax;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #003498;
+    position: relative;
+   display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+   align-items: center;
+     
+
+   
+   
+}
+
+#page3>div{
+    height: 25vmax;
+    width: 25vmax;
+    background-color: #f5f5f5;
+    position: relative;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+
+#page3>div>img{
+   height: 23vmax;
+   position: absolute;
+   left: 44%;
+   top: 35%;
+   transition: 0.3s ease;
+   
+}
+
+ #page3>div>img:hover{
+    height: 30vmax;
+    left: 15%;
+    top: 5%;
+    z-index: 10;
+}
+
+
+.page3-inner{
+    position: absolute;
+    width: 80%;
+    height: 90%;
+ 
+}
+
+.page3-inner>h6{
+    padding: 3% 8%;
+    margin-top: 10%;
+    font-size: 2vmax;
+}
+.page3-inner>h6>span{
+    color: red;
+    font-size: 4vmax;
+}
+.page3-inner>h2{
+    padding: 3% 8%;
+    font-size: 2.5vmax;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page3-inner>p{
+    padding: 4% 10%;
+    margin-bottom: 2%;
+    font-size: 1vmax;
+    text-align: start;
+    word-break: break-all;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 3;
+}
+
+.page3-inner>button{
+    margin: 3% 8%;
+    border-radius: 22px;
+   width: 8.5vmax;
+   height: 2.5vmax;
+  
+  font-weight: 400;
+    font-family: "Be Vietnam Pro", sans-serif;
+   font-size: 1vmax;
+    font-style: normal;
+}
+
+.page3-inner-btn1{
+    border: 2px solid #f1bb17;
+    color: #f1bb17;
+}
+
+.page3-inner-btn2{
+    border: 2px solid #32c822db;
+    color: #32c822db;
+}
+
+.page3-inner-btn3{
+    border: 2px solid #007ee7;
+    color: #007ee7;
+}
+
+.page3-inner-btn1:hover{
+    
+    color: #fff;
+    background-color: #f1bb17;
+}
+
+.page3-inner-btn2:hover{
+ 
+    color: #fff;
+    background-color: #32c822db;
+}
+
+.page3-inner-btn3:hover{
+   
+    color: #fff;
+    background-color: #007ee7;
+}
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+position: relative;
+}
+
+.contact-us{
+    width: 35%;
+    height: 68%;
+    border-left: 12px solid #32c822db;
+    background-color: #000;
+    filter: opacity(60%);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.contact-us>h2{
+    margin: 0.5vw 3vw;
+    font-size: 2.5vmax;
+    color: #fff;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact-us>form{
+    display: flex;
+    flex-direction: column;
+    margin: 0vw 2.5vw;
+    
+}
+.contact-us>form>input,
+.contact-us>form>textarea,.contact-us>form>button{
+    margin: 0.5vmax 0vw;
+}
+
+.contact-us>form>input{
+  padding: 1vw  2vw;
+  outline: none;
+  border-radius: 12px;
+  font-size: 0.8vmax;
+}
+
+.contact-us>form>textarea{
+    padding:   1vw  2vw;
+    font-size: 0.8vmax;
+    outline: none;
+    border-radius: 12px; 
+}
+.contact-us>form>button{
+    width: 40%;
+    border-radius: 1.5vmax;
+    padding: 0.8vw 1.5vw;
+    font-weight: 700;
+    font-size: 1vmax;
+     background-color: transparent;
+     border: 2px solid #32c822db;
+     color: #32c822db;
+}
+
+.contact-us>form>button:hover{
+    background-color: #32c822db;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #003498;
+    color: white;
+   height: 40vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+
+
+
+.footer-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    
+
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer> img{
+    width: 150px;
+   
+    
+}

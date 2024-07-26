@@ -1,0 +1,104 @@
+@media (max-width: 600px) {
+
+    .navbar {
+      height: 8%;
+    
+    }
+
+    #page1{
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    }
+    #page2{
+        height: 80vh;
+    
+    }
+
+    #page3{
+        height: 150vh;
+        flex-direction: column;
+    }
+
+    #page3>div{
+        height: 40vmax;
+        width: 35vmax;
+    }
+
+    .bottom-page1{
+        width: 90%;
+        top: 40%;
+        left: 5%;
+        height: 45%;
+        padding: 2.5vmax;
+       text-align: center;
+       border-radius: 22px;
+       /* background-color: #1c4aa3ad; */
+    
+    }
+
+    .bottom-page1>h1{
+        font-size: 4.5vmax;
+      line-height: 6vh;
+        
+    }
+    .bottom-page1>h1>.h1-b{
+   
+        font-size:  7vmax;
+       
+    }
+
+    .bottom-page1-inner>p{
+        font-size: 2vmax;
+
+     }
+     .bottom-page1-inner>button{
+        padding: 1.5vmax 6vmax;
+     
+
+    }
+    
+    #page3>div>img{
+        height: 30vmax;
+       
+     }
+
+     .page3-inner>h2{
+      
+        font-size: 3.5vmax;
+      
+    }
+
+    .page3-inner>p{
+        font-size: 1.5vmax;
+    }
+    .page3-inner>button{
+        font-size: 1.5vmax;
+        width: 15vmax;
+        height: 5vmax;
+    }
+    
+    .contact-us{
+        width: 85%;
+        height: 70%;
+    }
+    .contact-us>form>input,
+.contact-us>form>textarea,.contact-us>form>button{
+    margin: 1vmax 0vw;
+}
+.contact-us>form>input{
+    padding: 4vw  2vw;
+   
+    font-size: 1.5vmax;
+  }
+  .contact-us>form>textarea{
+    padding: 4vw  2vw;
+   
+    font-size: 1.5vmax;
+ 
+}
+.contact-us>form>button{
+    padding: 2vw  2vw;
+    font-size: 1.5vmax;
+
+}
+  
+}
